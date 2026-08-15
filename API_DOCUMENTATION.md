@@ -8,17 +8,22 @@
 
 | | |
 | --- | --- |
-| Backend base URL | `http://localhost:5000` |
+| Backend base URL | `http://localhost:5500` |
 | API prefix | `/api` |
 | Frontend origin | `http://localhost:3000` |
 | CORS | Backend allows `http://localhost:3000` |
 | Content type | `application/json` for all requests/responses |
 | Auth | None (no sessions, no tokens) |
-| Dev proxy | CRA `"proxy": "http://localhost:5000"` lets the frontend call relative paths like `/api/match` |
+| Dev proxy | CRA `"proxy": "http://localhost:5500"` lets the frontend call relative paths like `/api/match` |
 
-There are **two endpoints**:
-- `POST /api/match`
-- `GET /api/personas`
+Endpoints:
+- `POST /api/match` — compute matches (no write)
+- `GET /api/personas` — read the 3 demo juniors (read-only seed)
+- `GET /api/mentors` — list all mentors
+- `POST /api/mentors` — onboard a new mentor (persisted)
+- `GET /api/juniors` — list created junior signups
+- `POST /api/juniors` — save a junior profile (persisted, pure save)
+- `GET /api/health` — status
 
 ---
 
@@ -137,7 +142,7 @@ Submit a junior profile; receive the parsed goal and the ranked mentor matches.
 
 ### Request
 
-`POST http://localhost:5000/api/match`
+`POST http://localhost:5500/api/match`
 Header: `Content-Type: application/json`
 
 Body:
@@ -214,7 +219,7 @@ Notes:
 ### curl example
 
 ```bash
-curl -X POST http://localhost:5000/api/match \
+curl -X POST http://localhost:5500/api/match \
   -H "Content-Type: application/json" \
   -d '{"juniorProfile":{"name":"Test","currentSkills":{"html":2,"css":2},"projectGoal":"Build a React TypeScript dashboard","availability":["weekend"]}}'
 # Expected: 200 with up to 3 matches, top result matchPercent > 50
@@ -228,7 +233,7 @@ Returns the 3 demo personas so the frontend can populate the "Try a demo persona
 
 ### Request
 
-`GET http://localhost:5000/api/personas`
+`GET http://localhost:5500/api/personas`
 
 ### Success — `200 OK`
 
@@ -265,6 +270,95 @@ Returns the persona **array directly** (not wrapped in an object):
 ### Errors
 
 The frontend treats any non-2xx as a failure and shows `"Failed to load demo personas"`. No specific error body is guaranteed.
+
+---
+
+## 4A. Onboarding & persistence endpoints
+
+These create and list mentors and junior signups. Data persists to JSON files in `backend/data/` (`mentors.json`, `juniors.json`), so new records survive restarts and newly onboarded mentors are matchable immediately without a restart. `GET /api/personas` is unrelated to these — it still returns only the 3 demo personas.
+
+### `GET /api/mentors`
+
+Returns the full mentor array (seed + onboarded). Each item is a **Mentor** object (see §2.4).
+
+`200 OK` → `[ { ...Mentor }, ... ]`
+
+### `POST /api/mentors`
+
+Onboard a new mentor. The server generates `id` (incremental, e.g. `m11`) and `avatarInitials` (first two letters of `name`, uppercased). Skill names are normalized to lowercase/hyphenated. Skills outside the known vocabulary are accepted with a server-side warning (they simply won't affect matching).
+
+**Request body:**
+
+```jsonc
+{
+  "name": "string",              // required, non-empty
+  "title": "string",             // required, non-empty
+  "bio": "string",               // required, non-empty (one sentence)
+  "skills": { "react": 5 },      // required, >= 1 skill; levels are ints 0-5
+  "domains": ["frontend"],       // required, >= 1
+  "availability": ["weekend"],   // required, >= 1; each of weekday-morning|weekday-evening|weekend
+  "maxMentees": 5,               // required, integer >= 1
+  "currentMentees": 0            // optional, default 0; integer >= 0 and < maxMentees
+}
+```
+
+**Success — `201 Created`:** the full created Mentor object, e.g.
+
+```jsonc
+{
+  "id": "m11",
+  "name": "Nina Park",
+  "title": "Staff Frontend Engineer",
+  "bio": "Leads accessibility and performance for a large React app.",
+  "skills": { "react": 5, "typescript": 4 },
+  "domains": ["frontend"],
+  "availability": ["weekday-evening", "weekend"],
+  "currentMentees": 0,
+  "maxMentees": 4,
+  "avatarInitials": "NI"
+}
+```
+
+**Errors:**
+- `400` — `{ "error": "Invalid mentor payload", "fields": [ "name is required", ... ] }`
+- `500` — `{ "error": "Failed to save mentor", "detail": "..." }`
+
+### `GET /api/juniors`
+
+Returns created junior signups only (does **not** include the demo personas).
+
+`200 OK` → `[ { ...Junior }, ... ]`
+
+### `POST /api/juniors`
+
+Save a junior profile. **Pure save** — it does not run matching. To get matches, call `POST /api/match` separately. The server generates `id` (incremental, e.g. `j1`).
+
+**Request body:**
+
+```jsonc
+{
+  "name": "string",                    // required, non-empty
+  "currentSkills": { "css": 2 },       // optional, default {}; levels are ints 0-5
+  "projectGoal": "string",             // required, non-empty, <= 500 chars
+  "availability": ["weekend"]          // required, >= 1 valid slot
+}
+```
+
+**Success — `201 Created`:** the created Junior object, e.g.
+
+```jsonc
+{
+  "id": "j1",
+  "name": "Sam Rivera",
+  "currentSkills": { "css": 2 },
+  "projectGoal": "Build a Flutter app backed by a REST API.",
+  "availability": ["weekend"]
+}
+```
+
+**Errors:**
+- `400` — `{ "error": "Invalid junior payload", "fields": [ "projectGoal is required", ... ] }`
+- `500` — `{ "error": "Failed to save junior", "detail": "..." }`
 
 ---
 

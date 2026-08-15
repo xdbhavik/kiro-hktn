@@ -1,0 +1,2558 @@
+[
+  {
+    "id": "m1",
+    "name": "Alice Brooks",
+    "title": "Senior Frontend Engineer",
+    "bio": "Builds accessible design systems and complex React dashboards used by millions.",
+    "skills": {
+      "react": 5,
+      "typescript": 5,
+      "css": 5,
+      "tailwind": 4,
+      "redux": 4,
+      "next-js": 4,
+      "vue": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 5,
+    "avatarInitials": "AL"
+  },
+  {
+    "id": "m2",
+    "name": "Ben Carter",
+    "title": "Frontend Engineer & UI Specialist",
+    "bio": "Crafts pixel-perfect, animation-rich interfaces with React and Tailwind.",
+    "skills": {
+      "react": 4,
+      "typescript": 4,
+      "css": 5,
+      "tailwind": 5,
+      "redux": 3,
+      "next-js": 3,
+      "graphql": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekday-evening"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 4,
+    "avatarInitials": "BE"
+  },
+  {
+    "id": "m3",
+    "name": "Carol Diaz",
+    "title": "Senior Backend Engineer",
+    "bio": "Designs high-throughput REST APIs and relational data models for fintech systems.",
+    "skills": {
+      "node": 5,
+      "express": 5,
+      "python": 4,
+      "flask": 4,
+      "rest-api": 5,
+      "sql": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 6,
+    "avatarInitials": "CA"
+  },
+  {
+    "id": "m4",
+    "name": "David Evans",
+    "title": "Backend Engineer (Python)",
+    "bio": "Ships robust Flask and Django services backed by tuned PostgreSQL databases.",
+    "skills": {
+      "node": 4,
+      "express": 4,
+      "python": 5,
+      "flask": 5,
+      "rest-api": 4,
+      "sql": 5,
+      "postgresql": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 5,
+    "avatarInitials": "DA"
+  },
+  {
+    "id": "m5",
+    "name": "Elena Ford",
+    "title": "Full-Stack Engineer",
+    "bio": "Owns features end to end from React frontends to Node services and databases.",
+    "skills": {
+      "react": 4,
+      "node": 4,
+      "express": 4,
+      "mongodb": 5,
+      "typescript": 4,
+      "postgresql": 3,
+      "next-js": 3
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 6,
+    "avatarInitials": "EL"
+  },
+  {
+    "id": "m6",
+    "name": "Frank Green",
+    "title": "Full-Stack Engineer & API Architect",
+    "bio": "Builds scalable full-stack apps with Node, MongoDB, and GraphQL gateways.",
+    "skills": {
+      "react": 3,
+      "node": 5,
+      "express": 5,
+      "mongodb": 4,
+      "typescript": 3,
+      "postgresql": 4,
+      "graphql": 4,
+      "next-js": 4
+    },
+    "domains": [
+      "fullstack",
+      "backend"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "FR"
+  },
+  {
+    "id": "m7",
+    "name": "Grace Hall",
+    "title": "Mobile Engineer (Flutter)",
+    "bio": "Delivers polished cross-platform mobile apps in Flutter backed by REST APIs.",
+    "skills": {
+      "flutter": 5,
+      "dart": 5,
+      "rest-api": 4
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 4,
+    "avatarInitials": "GR"
+  },
+  {
+    "id": "m8",
+    "name": "Henry Ito",
+    "title": "DevOps & Cloud Engineer",
+    "bio": "Automates cloud infrastructure on AWS with Docker, CI/CD, and solid Git workflows.",
+    "skills": {
+      "docker": 5,
+      "aws": 5,
+      "git": 5,
+      "postgresql": 4,
+      "c-sharp": 3
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekday-evening"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 5,
+    "avatarInitials": "HE"
+  },
+  {
+    "id": "m9",
+    "name": "Isabel Jones",
+    "title": "Machine Learning Engineer",
+    "bio": "Trains and deploys ML models with Python and Django on large SQL datasets.",
+    "skills": {
+      "python": 5,
+      "django": 5,
+      "machine-learning": 5,
+      "sql": 4
+    },
+    "domains": [
+      "ml",
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 4,
+    "avatarInitials": "IS"
+  },
+  {
+    "id": "m10",
+    "name": "Jack Kim",
+    "title": "Java & Spring Boot Engineer",
+    "bio": "Architects Java Spring Boot microservices and dabbles in Unity game development.",
+    "skills": {
+      "java": 5,
+      "spring-boot": 5,
+      "rest-api": 4,
+      "sql": 4,
+      "docker": 4,
+      "c-sharp": 4,
+      "unity": 4
+    },
+    "domains": [
+      "backend",
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 5,
+    "avatarInitials": "JA"
+  },
+  {
+    "id": "m11",
+    "name": "Zainab Anand",
+    "title": "Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with redux.",
+    "skills": {
+      "redux": 5,
+      "react": 5,
+      "rest-api": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 7,
+    "avatarInitials": "ZA"
+  },
+  {
+    "id": "m12",
+    "name": "Elif Yilmaz",
+    "title": "Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with react.",
+    "skills": {
+      "react": 4,
+      "redux": 4,
+      "typescript": 4,
+      "javascript": 4,
+      "tailwind": 4,
+      "html": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 7,
+    "avatarInitials": "EL"
+  },
+  {
+    "id": "m13",
+    "name": "Keira Lopez",
+    "title": "Senior Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with svelte.",
+    "skills": {
+      "svelte": 5,
+      "typescript": 5,
+      "css": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 7,
+    "avatarInitials": "KE"
+  },
+  {
+    "id": "m14",
+    "name": "Ravi Eriksson",
+    "title": "UI Engineer",
+    "bio": "Builds fast, accessible web interfaces with typescript.",
+    "skills": {
+      "typescript": 5,
+      "svelte": 4,
+      "tailwind": 2
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "RA"
+  },
+  {
+    "id": "m15",
+    "name": "Ines Wong",
+    "title": "UI Engineer",
+    "bio": "Builds fast, accessible web interfaces with react.",
+    "skills": {
+      "react": 5,
+      "next-js": 4,
+      "javascript": 5,
+      "angular": 5,
+      "rest-api": 2
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 6,
+    "maxMentees": 8,
+    "avatarInitials": "IN"
+  },
+  {
+    "id": "m16",
+    "name": "Yusuf Fontaine",
+    "title": "Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with typescript.",
+    "skills": {
+      "typescript": 5,
+      "react": 4,
+      "angular": 4,
+      "css": 3,
+      "html": 4,
+      "graphql": 2
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 3,
+    "avatarInitials": "YU"
+  },
+  {
+    "id": "m17",
+    "name": "Yusuf Ueda",
+    "title": "Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with redux.",
+    "skills": {
+      "redux": 4,
+      "svelte": 5,
+      "css": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 5,
+    "avatarInitials": "YU"
+  },
+  {
+    "id": "m18",
+    "name": "Maya Owusu",
+    "title": "Senior Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with typescript.",
+    "skills": {
+      "typescript": 5,
+      "svelte": 5,
+      "html": 4,
+      "css": 2,
+      "graphql": 4
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 4,
+    "avatarInitials": "MA"
+  },
+  {
+    "id": "m19",
+    "name": "Uma Silva",
+    "title": "Frontend Engineer",
+    "bio": "Builds fast, accessible web interfaces with react.",
+    "skills": {
+      "react": 4,
+      "next-js": 4,
+      "css": 4,
+      "graphql": 2,
+      "tailwind": 3
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 6,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m20",
+    "name": "Umar Zhang",
+    "title": "Web Frontend Developer",
+    "bio": "Builds fast, accessible web interfaces with svelte.",
+    "skills": {
+      "svelte": 5,
+      "next-js": 5,
+      "angular": 5,
+      "tailwind": 4
+    },
+    "domains": [
+      "frontend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 7,
+    "maxMentees": 8,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m21",
+    "name": "Grace Tanaka",
+    "title": "Senior Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with nestjs.",
+    "skills": {
+      "nestjs": 5,
+      "django": 4,
+      "sql": 3,
+      "grpc": 4,
+      "postgresql": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 8,
+    "avatarInitials": "GR"
+  },
+  {
+    "id": "m22",
+    "name": "Arjun Popescu",
+    "title": "Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with spring boot.",
+    "skills": {
+      "spring-boot": 4,
+      "asp-net": 4,
+      "rest-api": 3,
+      "sql": 2,
+      "graphql": 2
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 5,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "m23",
+    "name": "Diana Abbas",
+    "title": "Backend Developer",
+    "bio": "Designs reliable server-side systems and APIs with django.",
+    "skills": {
+      "django": 4,
+      "nestjs": 4,
+      "grpc": 4,
+      "docker": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 6,
+    "avatarInitials": "DI"
+  },
+  {
+    "id": "m24",
+    "name": "Pedro Dubois",
+    "title": "Senior Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with ruby on rails.",
+    "skills": {
+      "ruby-on-rails": 5,
+      "express": 5,
+      "node": 5,
+      "django": 4,
+      "grpc": 2,
+      "graphql": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 5,
+    "avatarInitials": "PE"
+  },
+  {
+    "id": "m25",
+    "name": "Liam Vargas",
+    "title": "Senior Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with asp net.",
+    "skills": {
+      "asp-net": 4,
+      "fastapi": 5,
+      "spring-boot": 5,
+      "redis": 4,
+      "grpc": 3
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 6,
+    "maxMentees": 8,
+    "avatarInitials": "LI"
+  },
+  {
+    "id": "m26",
+    "name": "Zoe Greco",
+    "title": "API Engineer",
+    "bio": "Designs reliable server-side systems and APIs with node.",
+    "skills": {
+      "node": 5,
+      "django": 4,
+      "laravel": 5,
+      "rest-api": 2
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 6,
+    "avatarInitials": "ZO"
+  },
+  {
+    "id": "m27",
+    "name": "Vera Petrov",
+    "title": "Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with spring boot.",
+    "skills": {
+      "spring-boot": 4,
+      "fastapi": 4,
+      "django": 4,
+      "flask": 5,
+      "sql": 3,
+      "rest-api": 3,
+      "docker": 3
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "VE"
+  },
+  {
+    "id": "m28",
+    "name": "Grace Vargas",
+    "title": "Senior Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with node.",
+    "skills": {
+      "node": 5,
+      "flask": 4,
+      "spring-boot": 4,
+      "laravel": 5,
+      "rest-api": 4,
+      "grpc": 4,
+      "sql": 3
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "GR"
+  },
+  {
+    "id": "m29",
+    "name": "Bianca Kowalski",
+    "title": "Senior Backend Engineer",
+    "bio": "Designs reliable server-side systems and APIs with express.",
+    "skills": {
+      "express": 4,
+      "laravel": 5,
+      "asp-net": 4,
+      "graphql": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "BI"
+  },
+  {
+    "id": "m30",
+    "name": "Fatima Novak",
+    "title": "Backend Developer",
+    "bio": "Designs reliable server-side systems and APIs with spring boot.",
+    "skills": {
+      "spring-boot": 5,
+      "ruby-on-rails": 4,
+      "express": 5,
+      "docker": 3,
+      "grpc": 3
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 7,
+    "avatarInitials": "FA"
+  },
+  {
+    "id": "m31",
+    "name": "Omar Ustinov",
+    "title": "Full-Stack Engineer",
+    "bio": "Ships features end to end across the stack, anchored in react.",
+    "skills": {
+      "react": 4,
+      "node": 4,
+      "express": 5,
+      "next-js": 4,
+      "postgresql": 3
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 3,
+    "avatarInitials": "OM"
+  },
+  {
+    "id": "m32",
+    "name": "Ibrahim Ueda",
+    "title": "Senior Full-Stack Engineer",
+    "bio": "Ships features end to end across the stack, anchored in next js.",
+    "skills": {
+      "next-js": 4,
+      "express": 4,
+      "rest-api": 2
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 6,
+    "avatarInitials": "IB"
+  },
+  {
+    "id": "m33",
+    "name": "Noah Xu",
+    "title": "Full-Stack Engineer",
+    "bio": "Ships features end to end across the stack, anchored in node.",
+    "skills": {
+      "node": 5,
+      "typescript": 5,
+      "next-js": 4,
+      "react": 4,
+      "tailwind": 2
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 3,
+    "avatarInitials": "NO"
+  },
+  {
+    "id": "m34",
+    "name": "Jonas Reyes",
+    "title": "Full-Stack Developer",
+    "bio": "Ships features end to end across the stack, anchored in node.",
+    "skills": {
+      "node": 5,
+      "react": 5,
+      "typescript": 5,
+      "graphql": 4,
+      "rest-api": 2,
+      "tailwind": 3
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "JO"
+  },
+  {
+    "id": "m35",
+    "name": "Maya Mercado",
+    "title": "Senior Full-Stack Engineer",
+    "bio": "Ships features end to end across the stack, anchored in typescript.",
+    "skills": {
+      "typescript": 5,
+      "react": 4,
+      "graphql": 3,
+      "postgresql": 2,
+      "docker": 4
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 5,
+    "avatarInitials": "MA"
+  },
+  {
+    "id": "m36",
+    "name": "Chen Reyes",
+    "title": "Full-Stack Developer",
+    "bio": "Ships features end to end across the stack, anchored in typescript.",
+    "skills": {
+      "typescript": 5,
+      "react": 5,
+      "mongodb": 4
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 7,
+    "avatarInitials": "CH"
+  },
+  {
+    "id": "m37",
+    "name": "Xander Petrov",
+    "title": "Senior Full-Stack Engineer",
+    "bio": "Ships features end to end across the stack, anchored in node.",
+    "skills": {
+      "node": 5,
+      "next-js": 4,
+      "react": 4,
+      "express": 5,
+      "mongodb": 4,
+      "postgresql": 2,
+      "tailwind": 3
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 4,
+    "avatarInitials": "XA"
+  },
+  {
+    "id": "m38",
+    "name": "Vera Anand",
+    "title": "Full-Stack Engineer",
+    "bio": "Ships features end to end across the stack, anchored in next js.",
+    "skills": {
+      "next-js": 5,
+      "node": 5,
+      "express": 4,
+      "react": 4,
+      "rest-api": 2,
+      "mongodb": 3
+    },
+    "domains": [
+      "fullstack",
+      "frontend",
+      "backend"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 5,
+    "avatarInitials": "VE"
+  },
+  {
+    "id": "m39",
+    "name": "Dmitri Sato",
+    "title": "Cross-Platform Mobile Developer",
+    "bio": "Delivers polished mobile apps built with react native.",
+    "skills": {
+      "react-native": 4,
+      "android": 4,
+      "sqlite": 4,
+      "graphql": 4,
+      "dart": 2
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 7,
+    "maxMentees": 8,
+    "avatarInitials": "DM"
+  },
+  {
+    "id": "m40",
+    "name": "Ibrahim Petrov",
+    "title": "Cross-Platform Mobile Developer",
+    "bio": "Delivers polished mobile apps built with jetpack compose.",
+    "skills": {
+      "jetpack-compose": 5,
+      "android": 4,
+      "flutter": 4,
+      "rest-api": 4
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 7,
+    "avatarInitials": "IB"
+  },
+  {
+    "id": "m41",
+    "name": "Ethan Kowalski",
+    "title": "Android Engineer",
+    "bio": "Delivers polished mobile apps built with flutter.",
+    "skills": {
+      "flutter": 4,
+      "jetpack-compose": 4,
+      "dart": 4
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 4,
+    "avatarInitials": "ET"
+  },
+  {
+    "id": "m42",
+    "name": "Rosa Jensen",
+    "title": "Mobile Engineer",
+    "bio": "Delivers polished mobile apps built with react native.",
+    "skills": {
+      "react-native": 4,
+      "flutter": 4,
+      "ios": 5,
+      "swift": 5,
+      "rest-api": 4
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 8,
+    "avatarInitials": "RO"
+  },
+  {
+    "id": "m43",
+    "name": "Omar Haddad",
+    "title": "Cross-Platform Mobile Developer",
+    "bio": "Delivers polished mobile apps built with ios.",
+    "skills": {
+      "ios": 4,
+      "flutter": 5,
+      "rest-api": 3,
+      "graphql": 2
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 4,
+    "avatarInitials": "OM"
+  },
+  {
+    "id": "m44",
+    "name": "Ines Reyes",
+    "title": "Cross-Platform Mobile Developer",
+    "bio": "Delivers polished mobile apps built with swift.",
+    "skills": {
+      "swift": 4,
+      "swiftui": 4,
+      "ios": 4,
+      "sqlite": 2
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "IN"
+  },
+  {
+    "id": "m45",
+    "name": "Liam Castro",
+    "title": "Cross-Platform Mobile Developer",
+    "bio": "Delivers polished mobile apps built with react native.",
+    "skills": {
+      "react-native": 5,
+      "jetpack-compose": 4,
+      "sqlite": 2
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 8,
+    "avatarInitials": "LI"
+  },
+  {
+    "id": "m46",
+    "name": "Hugo Xu",
+    "title": "Cross-Platform Mobile Developer",
+    "bio": "Delivers polished mobile apps built with android.",
+    "skills": {
+      "android": 5,
+      "ios": 4,
+      "swiftui": 5,
+      "rest-api": 3,
+      "dart": 4,
+      "sqlite": 2
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 6,
+    "avatarInitials": "HU"
+  },
+  {
+    "id": "m47",
+    "name": "Yara Johansson",
+    "title": "Cloud Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with docker.",
+    "skills": {
+      "docker": 5,
+      "aws": 5,
+      "gcp": 5,
+      "ci-cd": 3,
+      "postgresql": 2
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 4,
+    "maxMentees": 5,
+    "avatarInitials": "YA"
+  },
+  {
+    "id": "m48",
+    "name": "Pedro Abbas",
+    "title": "DevOps Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with terraform.",
+    "skills": {
+      "terraform": 5,
+      "azure": 5,
+      "gcp": 5,
+      "ansible": 4,
+      "prometheus": 3,
+      "ci-cd": 4
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 4,
+    "avatarInitials": "PE"
+  },
+  {
+    "id": "m49",
+    "name": "Priya Greco",
+    "title": "DevOps Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with azure.",
+    "skills": {
+      "azure": 5,
+      "aws": 5,
+      "kubernetes": 5,
+      "docker": 5,
+      "jenkins": 3
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 4,
+    "avatarInitials": "PR"
+  },
+  {
+    "id": "m50",
+    "name": "Keira Khan",
+    "title": "DevOps Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with docker.",
+    "skills": {
+      "docker": 4,
+      "aws": 4,
+      "terraform": 4,
+      "ansible": 5,
+      "postgresql": 3,
+      "ci-cd": 4,
+      "git": 3
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "KE"
+  },
+  {
+    "id": "m51",
+    "name": "Rosa Castro",
+    "title": "Platform Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with aws.",
+    "skills": {
+      "aws": 5,
+      "gcp": 5,
+      "linux": 3,
+      "postgresql": 4,
+      "git": 3
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 4,
+    "avatarInitials": "RO"
+  },
+  {
+    "id": "m52",
+    "name": "Aarav Iqbal",
+    "title": "DevOps Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with ansible.",
+    "skills": {
+      "ansible": 5,
+      "docker": 4,
+      "git": 3,
+      "jenkins": 3
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 5,
+    "avatarInitials": "AA"
+  },
+  {
+    "id": "m53",
+    "name": "Theo Dubois",
+    "title": "Platform Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with docker.",
+    "skills": {
+      "docker": 5,
+      "ansible": 5,
+      "ci-cd": 3
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "TH"
+  },
+  {
+    "id": "m54",
+    "name": "Ibrahim Silva",
+    "title": "Platform Engineer",
+    "bio": "Automates infrastructure and delivery pipelines with gcp.",
+    "skills": {
+      "gcp": 5,
+      "azure": 5,
+      "git": 4,
+      "jenkins": 2,
+      "linux": 4
+    },
+    "domains": [
+      "devops"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 8,
+    "avatarInitials": "IB"
+  },
+  {
+    "id": "m55",
+    "name": "Liam Torres",
+    "title": "Data Scientist",
+    "bio": "Trains and ships models spanning tensorflow.",
+    "skills": {
+      "tensorflow": 5,
+      "deep-learning": 4,
+      "nlp": 4,
+      "spark": 3,
+      "sql": 3
+    },
+    "domains": [
+      "ml",
+      "data"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 5,
+    "avatarInitials": "LI"
+  },
+  {
+    "id": "m56",
+    "name": "Finn Rahman",
+    "title": "Data Scientist",
+    "bio": "Trains and ships models spanning machine learning.",
+    "skills": {
+      "machine-learning": 4,
+      "deep-learning": 5,
+      "nlp": 4,
+      "computer-vision": 5,
+      "pandas": 4
+    },
+    "domains": [
+      "ml",
+      "data"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 3,
+    "avatarInitials": "FI"
+  },
+  {
+    "id": "m57",
+    "name": "Wei Cohen",
+    "title": "Machine Learning Engineer",
+    "bio": "Trains and ships models spanning pytorch.",
+    "skills": {
+      "pytorch": 4,
+      "nlp": 4,
+      "tensorflow": 4,
+      "machine-learning": 4,
+      "pandas": 2,
+      "python": 3,
+      "data-science": 4
+    },
+    "domains": [
+      "ml",
+      "data"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 5,
+    "avatarInitials": "WE"
+  },
+  {
+    "id": "m58",
+    "name": "Elif Moreau",
+    "title": "Data Scientist",
+    "bio": "Trains and ships models spanning pytorch.",
+    "skills": {
+      "pytorch": 5,
+      "deep-learning": 5,
+      "tensorflow": 4,
+      "nlp": 5,
+      "data-science": 2,
+      "python": 2,
+      "sql": 2
+    },
+    "domains": [
+      "ml",
+      "data"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "EL"
+  },
+  {
+    "id": "m59",
+    "name": "Uma Mercado",
+    "title": "Data Scientist",
+    "bio": "Trains and ships models spanning computer vision.",
+    "skills": {
+      "computer-vision": 4,
+      "nlp": 5,
+      "pandas": 4,
+      "sql": 2,
+      "python": 2
+    },
+    "domains": [
+      "ml",
+      "data"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 7,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m60",
+    "name": "Caleb Xu",
+    "title": "ML Researcher",
+    "bio": "Trains and ships models spanning computer vision.",
+    "skills": {
+      "computer-vision": 4,
+      "deep-learning": 4,
+      "pandas": 2,
+      "sql": 2
+    },
+    "domains": [
+      "ml",
+      "data"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 8,
+    "avatarInitials": "CA"
+  },
+  {
+    "id": "m61",
+    "name": "Julia Khan",
+    "title": "Big Data Engineer",
+    "bio": "Builds data pipelines and warehouses powered by spark.",
+    "skills": {
+      "spark": 4,
+      "pandas": 5,
+      "elasticsearch": 4,
+      "aws": 4,
+      "cassandra": 3
+    },
+    "domains": [
+      "data",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 6,
+    "avatarInitials": "JU"
+  },
+  {
+    "id": "m62",
+    "name": "Jonas Brooks",
+    "title": "Analytics Engineer",
+    "bio": "Builds data pipelines and warehouses powered by sql.",
+    "skills": {
+      "sql": 5,
+      "pandas": 5,
+      "data-science": 4,
+      "kafka": 4,
+      "postgresql": 4,
+      "elasticsearch": 3
+    },
+    "domains": [
+      "data",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 7,
+    "avatarInitials": "JO"
+  },
+  {
+    "id": "m63",
+    "name": "Yusuf Lopez",
+    "title": "Game Engine Programmer",
+    "bio": "Builds interactive games and engines with unreal engine.",
+    "skills": {
+      "unreal-engine": 5,
+      "c-sharp": 4,
+      "cpp": 5,
+      "unity": 5,
+      "c": 4,
+      "game-design": 3,
+      "vulkan": 2
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 4,
+    "avatarInitials": "YU"
+  },
+  {
+    "id": "m64",
+    "name": "Julia Vargas",
+    "title": "Game Engine Programmer",
+    "bio": "Builds interactive games and engines with cpp.",
+    "skills": {
+      "cpp": 5,
+      "unity": 5,
+      "opengl": 2
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 3,
+    "avatarInitials": "JU"
+  },
+  {
+    "id": "m65",
+    "name": "Ibrahim Yilmaz",
+    "title": "Technical Game Designer",
+    "bio": "Builds interactive games and engines with unity.",
+    "skills": {
+      "unity": 4,
+      "cpp": 5,
+      "unreal-engine": 5,
+      "godot": 5,
+      "directx": 4,
+      "game-design": 4
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 4,
+    "maxMentees": 6,
+    "avatarInitials": "IB"
+  },
+  {
+    "id": "m66",
+    "name": "Quinn Sato",
+    "title": "Game Engine Programmer",
+    "bio": "Builds interactive games and engines with unity.",
+    "skills": {
+      "unity": 5,
+      "cpp": 4,
+      "lua": 4,
+      "blender": 2,
+      "opengl": 4
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 6,
+    "maxMentees": 7,
+    "avatarInitials": "QU"
+  },
+  {
+    "id": "m67",
+    "name": "Maya Kowalski",
+    "title": "Gameplay Engineer",
+    "bio": "Builds interactive games and engines with unity.",
+    "skills": {
+      "unity": 4,
+      "cpp": 5,
+      "c-sharp": 5,
+      "godot": 4,
+      "lua": 3,
+      "blender": 3
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "MA"
+  },
+  {
+    "id": "m68",
+    "name": "Zoe Ustinov",
+    "title": "Game Developer",
+    "bio": "Builds interactive games and engines with unity.",
+    "skills": {
+      "unity": 5,
+      "cpp": 5,
+      "opengl": 3,
+      "game-design": 4
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 7,
+    "avatarInitials": "ZO"
+  },
+  {
+    "id": "m69",
+    "name": "Aarav Yilmaz",
+    "title": "Gameplay Engineer",
+    "bio": "Builds interactive games and engines with unreal engine.",
+    "skills": {
+      "unreal-engine": 4,
+      "cpp": 4,
+      "unity": 4,
+      "godot": 4,
+      "lua": 4
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 3,
+    "avatarInitials": "AA"
+  },
+  {
+    "id": "m70",
+    "name": "Diana Bauer",
+    "title": "Gameplay Engineer",
+    "bio": "Builds interactive games and engines with unity.",
+    "skills": {
+      "unity": 4,
+      "unreal-engine": 4,
+      "c-sharp": 4,
+      "cpp": 5,
+      "directx": 3,
+      "blender": 3,
+      "lua": 4
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 8,
+    "avatarInitials": "DI"
+  },
+  {
+    "id": "m71",
+    "name": "Diana Mercado",
+    "title": "Game Developer",
+    "bio": "Builds interactive games and engines with godot.",
+    "skills": {
+      "godot": 5,
+      "unity": 5,
+      "unreal-engine": 5,
+      "c-sharp": 4,
+      "c": 2
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 7,
+    "avatarInitials": "DI"
+  },
+  {
+    "id": "m72",
+    "name": "Quinn Haddad",
+    "title": "Technical Game Designer",
+    "bio": "Builds interactive games and engines with unity.",
+    "skills": {
+      "unity": 4,
+      "godot": 4,
+      "cpp": 4,
+      "unreal-engine": 4,
+      "lua": 2,
+      "c": 2
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 6,
+    "maxMentees": 7,
+    "avatarInitials": "QU"
+  },
+  {
+    "id": "m73",
+    "name": "Julia Zhang",
+    "title": "Game Developer",
+    "bio": "Builds interactive games and engines with c sharp.",
+    "skills": {
+      "c-sharp": 4,
+      "unreal-engine": 4,
+      "godot": 5,
+      "cpp": 5,
+      "c": 2,
+      "blender": 4,
+      "directx": 2
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 3,
+    "avatarInitials": "JU"
+  },
+  {
+    "id": "m74",
+    "name": "Diana Moreau",
+    "title": "Game Engine Programmer",
+    "bio": "Builds interactive games and engines with godot.",
+    "skills": {
+      "godot": 4,
+      "cpp": 4,
+      "unreal-engine": 5,
+      "c-sharp": 4,
+      "vulkan": 3
+    },
+    "domains": [
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 7,
+    "avatarInitials": "DI"
+  },
+  {
+    "id": "m75",
+    "name": "Uma Wong",
+    "title": "Kernel Developer",
+    "bio": "Works close to the metal on c.",
+    "skills": {
+      "c": 5,
+      "operating-systems": 5,
+      "kernel-development": 5,
+      "systems-programming": 5,
+      "linux": 2,
+      "distributed-systems": 2,
+      "concurrency": 2
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 5,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m76",
+    "name": "Finn Wong",
+    "title": "OS Engineer",
+    "bio": "Works close to the metal on systems programming.",
+    "skills": {
+      "systems-programming": 4,
+      "assembly": 5,
+      "concurrency": 2,
+      "distributed-systems": 3
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 5,
+    "avatarInitials": "FI"
+  },
+  {
+    "id": "m77",
+    "name": "Kenji Johansson",
+    "title": "Systems Engineer",
+    "bio": "Works close to the metal on kernel development.",
+    "skills": {
+      "kernel-development": 4,
+      "rust": 4,
+      "cpp": 3,
+      "distributed-systems": 2,
+      "linux": 4
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 6,
+    "avatarInitials": "KE"
+  },
+  {
+    "id": "m78",
+    "name": "Omar Yilmaz",
+    "title": "OS Engineer",
+    "bio": "Works close to the metal on operating systems.",
+    "skills": {
+      "operating-systems": 5,
+      "c": 5,
+      "assembly": 5,
+      "kernel-development": 5,
+      "compilers": 4,
+      "distributed-systems": 3
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 8,
+    "avatarInitials": "OM"
+  },
+  {
+    "id": "m79",
+    "name": "Willa Nakamura",
+    "title": "Systems Engineer",
+    "bio": "Works close to the metal on rust.",
+    "skills": {
+      "rust": 5,
+      "kernel-development": 4,
+      "assembly": 5,
+      "linux": 3,
+      "concurrency": 4
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "WI"
+  },
+  {
+    "id": "m80",
+    "name": "Pedro Ortiz",
+    "title": "Kernel Developer",
+    "bio": "Works close to the metal on rust.",
+    "skills": {
+      "rust": 4,
+      "operating-systems": 5,
+      "linux": 4
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 6,
+    "avatarInitials": "PE"
+  },
+  {
+    "id": "m81",
+    "name": "Fatima Petrov",
+    "title": "Systems Architect",
+    "bio": "Works close to the metal on c.",
+    "skills": {
+      "c": 4,
+      "rust": 5,
+      "operating-systems": 5,
+      "linux": 3,
+      "concurrency": 2,
+      "distributed-systems": 2
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 4,
+    "avatarInitials": "FA"
+  },
+  {
+    "id": "m82",
+    "name": "Priya Abbas",
+    "title": "Kernel Developer",
+    "bio": "Works close to the metal on operating systems.",
+    "skills": {
+      "operating-systems": 4,
+      "rust": 4,
+      "assembly": 4,
+      "embedded-systems": 2,
+      "concurrency": 4
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 4,
+    "avatarInitials": "PR"
+  },
+  {
+    "id": "m83",
+    "name": "Nadia Brooks",
+    "title": "Systems Architect",
+    "bio": "Works close to the metal on kernel development.",
+    "skills": {
+      "kernel-development": 4,
+      "assembly": 4,
+      "linux": 4,
+      "compilers": 2
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 4,
+    "maxMentees": 6,
+    "avatarInitials": "NA"
+  },
+  {
+    "id": "m84",
+    "name": "Omar Ustinov",
+    "title": "Systems Engineer",
+    "bio": "Works close to the metal on systems programming.",
+    "skills": {
+      "systems-programming": 4,
+      "operating-systems": 4,
+      "assembly": 5,
+      "c": 5,
+      "concurrency": 3,
+      "distributed-systems": 2
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 6,
+    "maxMentees": 8,
+    "avatarInitials": "OM"
+  },
+  {
+    "id": "m85",
+    "name": "Tara Anand",
+    "title": "Kernel Developer",
+    "bio": "Works close to the metal on systems programming.",
+    "skills": {
+      "systems-programming": 5,
+      "kernel-development": 5,
+      "rust": 4,
+      "distributed-systems": 2
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 5,
+    "avatarInitials": "TA"
+  },
+  {
+    "id": "m86",
+    "name": "Omar Dubois",
+    "title": "Kernel Developer",
+    "bio": "Works close to the metal on rust.",
+    "skills": {
+      "rust": 4,
+      "systems-programming": 5,
+      "c": 4,
+      "kernel-development": 5,
+      "embedded-systems": 4
+    },
+    "domains": [
+      "systems"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 7,
+    "avatarInitials": "OM"
+  },
+  {
+    "id": "m87",
+    "name": "Sofia Vargas",
+    "title": "Penetration Tester",
+    "bio": "Hardens systems and hunts vulnerabilities using cybersecurity.",
+    "skills": {
+      "cybersecurity": 4,
+      "network-security": 5,
+      "cryptography": 4,
+      "penetration-testing": 4,
+      "linux": 2
+    },
+    "domains": [
+      "security"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 7,
+    "avatarInitials": "SO"
+  },
+  {
+    "id": "m88",
+    "name": "Pedro Abbas",
+    "title": "Security Engineer",
+    "bio": "Hardens systems and hunts vulnerabilities using network security.",
+    "skills": {
+      "network-security": 4,
+      "cybersecurity": 5,
+      "penetration-testing": 5,
+      "cryptography": 4,
+      "linux": 2,
+      "docker": 4,
+      "python": 4
+    },
+    "domains": [
+      "security"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "PE"
+  },
+  {
+    "id": "m89",
+    "name": "Nadia Tanaka",
+    "title": "Penetration Tester",
+    "bio": "Hardens systems and hunts vulnerabilities using cybersecurity.",
+    "skills": {
+      "cybersecurity": 4,
+      "penetration-testing": 5,
+      "cryptography": 5,
+      "network-security": 5,
+      "docker": 4
+    },
+    "domains": [
+      "security"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 3,
+    "avatarInitials": "NA"
+  },
+  {
+    "id": "m90",
+    "name": "Yusuf Yilmaz",
+    "title": "Security Engineer",
+    "bio": "Hardens systems and hunts vulnerabilities using cryptography.",
+    "skills": {
+      "cryptography": 5,
+      "cybersecurity": 4,
+      "penetration-testing": 5,
+      "network-security": 5,
+      "linux": 4,
+      "docker": 2,
+      "python": 2
+    },
+    "domains": [
+      "security"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 7,
+    "avatarInitials": "YU"
+  },
+  {
+    "id": "m91",
+    "name": "Noah Wong",
+    "title": "Blockchain Engineer",
+    "bio": "Builds decentralized apps and smart contracts with blockchain.",
+    "skills": {
+      "blockchain": 4,
+      "solidity": 5,
+      "node": 2,
+      "go": 2
+    },
+    "domains": [
+      "blockchain"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 6,
+    "avatarInitials": "NO"
+  },
+  {
+    "id": "m92",
+    "name": "Rosa Abbas",
+    "title": "Smart Contract Developer",
+    "bio": "Builds decentralized apps and smart contracts with web3.",
+    "skills": {
+      "web3": 4,
+      "solidity": 5,
+      "blockchain": 5,
+      "rest-api": 3
+    },
+    "domains": [
+      "blockchain"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 4,
+    "maxMentees": 5,
+    "avatarInitials": "RO"
+  },
+  {
+    "id": "m93",
+    "name": "Umar Eriksson",
+    "title": "Rust Developer",
+    "bio": "Rust specialist focused on production-grade Rust systems.",
+    "skills": {
+      "systems-programming": 4,
+      "concurrency": 4,
+      "rest-api": 3,
+      "rust": 5
+    },
+    "domains": [
+      "systems",
+      "backend"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 8,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m94",
+    "name": "Yara Lindqvist",
+    "title": "Go Developer",
+    "bio": "Go specialist focused on production-grade Go systems.",
+    "skills": {
+      "go": 5,
+      "rest-api": 3,
+      "grpc": 3
+    },
+    "domains": [
+      "backend",
+      "devops"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "YA"
+  },
+  {
+    "id": "m95",
+    "name": "Umar Zhang",
+    "title": "C++ Developer",
+    "bio": "C++ specialist focused on production-grade C++ systems.",
+    "skills": {
+      "systems-programming": 5,
+      "cpp": 5,
+      "opengl": 3,
+      "unreal-engine": 3
+    },
+    "domains": [
+      "systems",
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 8,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m96",
+    "name": "Xander Farah",
+    "title": "Java Developer",
+    "bio": "Java specialist focused on production-grade Java systems.",
+    "skills": {
+      "sql": 4,
+      "rest-api": 4,
+      "spring-boot": 4,
+      "kafka": 3,
+      "java": 5
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 2,
+    "maxMentees": 8,
+    "avatarInitials": "XA"
+  },
+  {
+    "id": "m97",
+    "name": "Lena Zhang",
+    "title": "C# Developer",
+    "bio": "C# specialist focused on production-grade C# systems.",
+    "skills": {
+      "asp-net": 5,
+      "c-sharp": 5,
+      "rest-api": 5,
+      "unity": 2
+    },
+    "domains": [
+      "backend",
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 8,
+    "avatarInitials": "LE"
+  },
+  {
+    "id": "m98",
+    "name": "Caleb Greco",
+    "title": "Kotlin Developer",
+    "bio": "Kotlin specialist focused on production-grade Kotlin systems.",
+    "skills": {
+      "android": 5,
+      "jetpack-compose": 5,
+      "spring-boot": 2,
+      "kotlin": 5
+    },
+    "domains": [
+      "mobile",
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 4,
+    "maxMentees": 6,
+    "avatarInitials": "CA"
+  },
+  {
+    "id": "m99",
+    "name": "Maya Moreau",
+    "title": "Swift Developer",
+    "bio": "Swift specialist focused on production-grade Swift systems.",
+    "skills": {
+      "swift": 5,
+      "ios": 4,
+      "swiftui": 3
+    },
+    "domains": [
+      "mobile"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 8,
+    "avatarInitials": "MA"
+  },
+  {
+    "id": "m100",
+    "name": "Zainab Petrov",
+    "title": "Ruby Developer",
+    "bio": "Ruby specialist focused on production-grade Ruby systems.",
+    "skills": {
+      "ruby": 5,
+      "postgresql": 4,
+      "rest-api": 3
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 6,
+    "avatarInitials": "ZA"
+  },
+  {
+    "id": "m101",
+    "name": "Xander Mercado",
+    "title": "PHP Developer",
+    "bio": "PHP specialist focused on production-grade PHP systems.",
+    "skills": {
+      "rest-api": 4,
+      "laravel": 4,
+      "mysql": 4,
+      "php": 5
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 5,
+    "avatarInitials": "XA"
+  },
+  {
+    "id": "m102",
+    "name": "Olga Holm",
+    "title": "Scala Developer",
+    "bio": "Scala specialist focused on production-grade Scala systems.",
+    "skills": {
+      "sql": 4,
+      "spark": 4,
+      "scala": 5
+    },
+    "domains": [
+      "data",
+      "backend"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 6,
+    "avatarInitials": "OL"
+  },
+  {
+    "id": "m103",
+    "name": "Arjun Dubois",
+    "title": "Elixir Developer",
+    "bio": "Elixir specialist focused on production-grade Elixir systems.",
+    "skills": {
+      "elixir": 5,
+      "rest-api": 5,
+      "postgresql": 4,
+      "concurrency": 5
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 4,
+    "maxMentees": 8,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "m104",
+    "name": "Pedro Fontaine",
+    "title": "Python Developer",
+    "bio": "Python specialist focused on production-grade Python systems.",
+    "skills": {
+      "django": 5,
+      "python": 5,
+      "rest-api": 2
+    },
+    "domains": [
+      "backend",
+      "data"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 5,
+    "avatarInitials": "PE"
+  },
+  {
+    "id": "m105",
+    "name": "Bianca Devlin",
+    "title": "Rust Developer",
+    "bio": "Rust specialist focused on production-grade Rust systems.",
+    "skills": {
+      "rest-api": 4,
+      "concurrency": 4,
+      "rust": 5
+    },
+    "domains": [
+      "systems",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 1,
+    "maxMentees": 4,
+    "avatarInitials": "BI"
+  },
+  {
+    "id": "m106",
+    "name": "Uma Kowalski",
+    "title": "Go Developer",
+    "bio": "Go specialist focused on production-grade Go systems.",
+    "skills": {
+      "go": 5,
+      "grpc": 4,
+      "kubernetes": 4,
+      "rest-api": 4
+    },
+    "domains": [
+      "backend",
+      "devops"
+    ],
+    "availability": [
+      "weekday-morning"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 5,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m107",
+    "name": "Umar Castro",
+    "title": "C++ Developer",
+    "bio": "C++ specialist focused on production-grade C++ systems.",
+    "skills": {
+      "cpp": 5,
+      "unreal-engine": 5,
+      "systems-programming": 5,
+      "concurrency": 2,
+      "opengl": 2
+    },
+    "domains": [
+      "systems",
+      "game-dev"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 3,
+    "maxMentees": 4,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "m108",
+    "name": "Ibrahim Fontaine",
+    "title": "Java Developer",
+    "bio": "Java specialist focused on production-grade Java systems.",
+    "skills": {
+      "rest-api": 4,
+      "java": 5,
+      "sql": 4
+    },
+    "domains": [
+      "backend"
+    ],
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 5,
+    "avatarInitials": "IB"
+  },
+  {
+    "id": "m109",
+    "name": "Yusuf Tanaka",
+    "title": "C# Developer",
+    "bio": "C# specialist focused on production-grade C# systems.",
+    "skills": {
+      "unity": 4,
+      "c-sharp": 5,
+      "asp-net": 4,
+      "rest-api": 5
+    },
+    "domains": [
+      "backend",
+      "game-dev"
+    ],
+    "availability": [
+      "weekend"
+    ],
+    "currentMentees": 5,
+    "maxMentees": 6,
+    "avatarInitials": "YU"
+  },
+  {
+    "id": "m110",
+    "name": "Yara Eriksson",
+    "title": "Kotlin Developer",
+    "bio": "Kotlin specialist focused on production-grade Kotlin systems.",
+    "skills": {
+      "kotlin": 5,
+      "jetpack-compose": 4,
+      "spring-boot": 4
+    },
+    "domains": [
+      "mobile",
+      "backend"
+    ],
+    "availability": [
+      "weekday-evening",
+      "weekend"
+    ],
+    "currentMentees": 0,
+    "maxMentees": 4,
+    "avatarInitials": "YA"
+  }
+]

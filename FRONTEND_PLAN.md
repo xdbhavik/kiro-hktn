@@ -49,14 +49,14 @@ frontend/
 │   ├── index.js
 │   ├── index.css
 │   └── App.css
-└── package.json          # add "proxy": "http://localhost:5000"
+└── package.json          # add "proxy": "http://localhost:5500"
 ```
 
 ### Setup steps
 
 1. `npx create-react-app frontend`
 2. Delete defaults: `src/App.test.js`, `src/logo.svg`, `src/reportWebVitals.js`, `src/setupTests.js`. Clear `App.css`. Replace `index.css` (see Section 4).
-3. Add `"proxy": "http://localhost:5000"` to `frontend/package.json`.
+3. Add `"proxy": "http://localhost:5500"` to `frontend/package.json`.
 4. Install: `axios`, `react-router-dom`.
 
 ---

@@ -1,0 +1,161 @@
+[
+  {
+    "id": "j1",
+    "name": "John Doe",
+    "currentSkills": {
+      "react": 4,
+      "nodejs": 3,
+      "expressjs": 3,
+      "mongodb": 4
+    },
+    "projectGoal": "I want to build a hackathon portfolio website using MERN stack",
+    "availability": [
+      "weekend"
+    ]
+  },
+  {
+    "id": "j2",
+    "name": "Alex",
+    "currentSkills": {},
+    "projectGoal": "I wanna architect an Operating system",
+    "availability": [
+      "weekend"
+    ]
+  },
+  {
+    "id": "j3",
+    "name": "Backend Junior",
+    "currentSkills": {
+      "python": 2,
+      "rest-api": 1
+    },
+    "projectGoal": "Build a REST API backend with Flask and PostgreSQL for a task management app.",
+    "availability": [
+      "weekday-evening"
+    ]
+  },
+  {
+    "id": "j4",
+    "name": "Full-stack Junior",
+    "currentSkills": {
+      "javascript": 2,
+      "node": 1
+    },
+    "projectGoal": "Build a full-stack e-commerce site with Next.js, a Node/Express backend, and MongoDB.",
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ]
+  },
+  {
+    "id": "j5",
+    "name": "React Junior",
+    "currentSkills": {
+      "html": 2,
+      "css": 2
+    },
+    "projectGoal": "I want to build a React and TypeScript dashboard with Redux for state management.",
+    "availability": [
+      "weekend"
+    ]
+  },
+  {
+    "id": "j6",
+    "name": "React Junior",
+    "currentSkills": {
+      "html": 2,
+      "css": 2
+    },
+    "projectGoal": "I want to build a React and TypeScript dashboard with Redux for state management.",
+    "availability": [
+      "weekend"
+    ]
+  },
+  {
+    "id": "j7",
+    "name": "Full-stack Junior",
+    "currentSkills": {
+      "javascript": 2,
+      "node": 1
+    },
+    "projectGoal": "Build a full-stack e-commerce site with Next.js, a Node/Express backend, and MongoDB.",
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ]
+  },
+  {
+    "id": "j8",
+    "name": "Backend Junior",
+    "currentSkills": {
+      "python": 2,
+      "rest-api": 1
+    },
+    "projectGoal": "Build a REST API backend with Flask and PostgreSQL for a task management app.",
+    "availability": [
+      "weekday-evening"
+    ]
+  },
+  {
+    "id": "j9",
+    "name": "Alex Clow",
+    "currentSkills": {
+      "c": 5,
+      "operating-systems": 2,
+      "concurrency": 1,
+      "systems-programming": 1
+    },
+    "projectGoal": "System. the metal on c",
+    "availability": [
+      "weekend"
+    ]
+  },
+  {
+    "id": "j10",
+    "name": "Steve Hawk",
+    "currentSkills": {},
+    "projectGoal": "UI Portfolio using reactjs and threejs",
+    "availability": [
+      "weekend",
+      "weekday-evening",
+      "weekday-morning"
+    ]
+  },
+  {
+    "id": "j11",
+    "name": "React Junior",
+    "currentSkills": {
+      "html": 2,
+      "css": 2
+    },
+    "projectGoal": "I want to build a React and TypeScript dashboard with Redux for state management.",
+    "availability": [
+      "weekend"
+    ]
+  },
+  {
+    "id": "j12",
+    "name": "Full-stack Junior",
+    "currentSkills": {
+      "javascript": 2,
+      "node": 1
+    },
+    "projectGoal": "Build a full-stack e-commerce site with Next.js, a Node/Express backend, and MongoDB.",
+    "availability": [
+      "weekday-morning",
+      "weekend"
+    ]
+  },
+  {
+    "id": "j13",
+    "name": "Backend Junior",
+    "currentSkills": {
+      "python": 2,
+      "rest-api": 1
+    },
+    "projectGoal": "Build a REST API backend with Flask and PostgreSQL for a task management app.",
+    "availability": [
+      "weekday-evening"
+    ]
+  }
+]

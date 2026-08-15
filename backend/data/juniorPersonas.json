@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p1",
+    "name": "React Junior",
+    "currentSkills": {
+      "html": 2,
+      "css": 2
+    },
+    "projectGoal": "I want to build a React and TypeScript dashboard with Redux for state management.",
+    "availability": ["weekend"]
+  },
+  {
+    "id": "p2",
+    "name": "Backend Junior",
+    "currentSkills": {
+      "python": 2,
+      "rest-api": 1
+    },
+    "projectGoal": "Build a REST API backend with Flask and PostgreSQL for a task management app.",
+    "availability": ["weekday-evening"]
+  },
+  {
+    "id": "p3",
+    "name": "Full-stack Junior",
+    "currentSkills": {
+      "javascript": 2,
+      "node": 1
+    },
+    "projectGoal": "Build a full-stack e-commerce site with Next.js, a Node/Express backend, and MongoDB.",
+    "availability": ["weekday-morning", "weekend"]
+  }
+]

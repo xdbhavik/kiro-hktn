@@ -1,0 +1,16 @@
+{
+  "name": "peer-mentor-matcher-backend",
+  "version": "1.0.0",
+  "description": "Backend for Peer Mentor Matcher - Express API + deterministic matching engine",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test:matcher": "node engine/matcher.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,39 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --primary: #7c6af7;
+  --primary-light: #a99ef9;
+  --surface: #1a1a24;
+  --surface-2: #22222e;
+  --border: #2e2e3e;
+  --text: #e8e8e8;
+  --text-muted: #8888a4;
+  --success: #4ade80;
+  --gap-color: #f97316;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f0f13;
+  color: #e8e8e8;
+  min-height: 100vh;
+  padding-top: 56px; /* room for the fixed navbar */
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Focus visibility for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}

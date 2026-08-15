@@ -51,13 +51,16 @@ peer-mentor-matcher/
 │   └── steering.md
 ├── backend/
 │   ├── data/
-│   │   ├── mentors.json
-│   │   └── juniorPersonas.json
+│   │   ├── mentors.json        # seed + onboarded mentors (mutable)
+│   │   ├── juniorPersonas.json # 3 demo personas (read-only)
+│   │   ├── juniors.json        # created junior signups (mutable, starts [])
+│   │   └── store.js            # in-memory cache + atomic JSON persistence
 │   ├── engine/
 │   │   ├── goalParser.js      # LLM parse + mock fallback
-│   │   └── matcher.js         # pure scoring function
+│   │   ├── matcher.js         # pure scoring function
+│   │   └── validation.js      # mentor/junior payload validators
 │   ├── routes/
-│   │   └── match.js           # POST /match, GET /personas
+│   │   └── match.js           # match, personas, mentors, juniors routes
 │   ├── .env                   # real keys (gitignored)
 │   ├── .env.example
 │   └── index.js               # Express bootstrap
@@ -362,7 +365,7 @@ Add `.env` to `.gitignore`.
 Add this test comment at the top of the file:
 
 ```js
-// TEST: curl -X POST http://localhost:5000/api/match \
+// TEST: curl -X POST http://localhost:5500/api/match \
 //   -H "Content-Type: application/json" \
 //   -d '{"juniorProfile":{"name":"Test","currentSkills":{"html":2,"css":2},"projectGoal":"Build a React TypeScript dashboard","availability":["weekend"]}}'
 // Expected: 200 with 3 match results, top result matchPercent > 50
@@ -372,7 +375,9 @@ Add this test comment at the top of the file:
 
 ## 9. Routes — `backend/routes/match.js`
 
-Export an Express `Router` factory that receives the in-memory `mentors` (and reads personas from disk or memory). Two routes:
+Export an Express `Router` factory (`createMatchRouter()`, no args) that reads and writes all data through the store (`backend/data/store.js`). Reading mentors from the store at request time means newly onboarded mentors are matchable live.
+
+Routes: `POST /match`, `GET /personas`, `GET /mentors`, `POST /mentors`, `GET /juniors`, `POST /juniors`. The onboarding/persistence routes and their schemas are fully specified in `UPDATE.md` and `API_DOCUMENTATION.md` §4A.
 
 ### `POST /match`
 
@@ -392,7 +397,7 @@ Request body:
 Handler order:
 1. Validate: if `juniorProfile` or `juniorProfile.projectGoal` is missing → `400 { error: "juniorProfile and projectGoal are required" }`.
 2. `const parsedGoal = await parseGoal(juniorProfile.projectGoal)`.
-3. `const matches = rankMentors(juniorProfile, parsedGoal, mentors)` (sync).
+3. `const matches = rankMentors(juniorProfile, parsedGoal, store.getMentors())` (sync).
 4. `200 { parsedGoal: { targetSkills, domain }, matches }`.
 5. Wrap in try/catch → on error `500 { error: "Matching failed", detail: err.message }`.
 
@@ -425,3 +430,13 @@ Reflect the LLM provider change (Groq/OpenRouter, no Claude) in these:
 - [ ] `GET /api/personas` returns the 3 personas.
 - [ ] `.env` is gitignored; `.env.example` is committed.
 - [ ] Response shapes match `API_DOCUMENTATION.md` exactly.
+
+### Onboarding & persistence (added — see `UPDATE.md`)
+
+- [ ] `backend/data/store.js` loads mentors/personas/juniors into memory and persists writes atomically.
+- [ ] `backend/data/juniors.json` exists (starts as `[]`).
+- [ ] `POST /api/mentors` validates, generates `id` + `avatarInitials`, persists, and returns `201`.
+- [ ] A mentor added via `POST /api/mentors` is matchable by `POST /api/match` without a restart.
+- [ ] `POST /api/juniors` validates, persists (pure save), and returns `201`.
+- [ ] `GET /api/mentors` and `GET /api/juniors` list current data.
+- [ ] Invalid payloads return `400 { error, fields }`.
