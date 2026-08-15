@@ -1,0 +1,14 @@
+{
+  "name": "peer-mentor-matcher",
+  "version": "1.0.0",
+  "description": "Peer Mentor Matcher - pairs junior developers with mentors based on actual skill gaps.",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && node index.js",
+    "client": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
